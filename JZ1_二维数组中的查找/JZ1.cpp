@@ -23,9 +23,9 @@ int main()
 {
 	int target = 13;
 	vector<vector<int>> array = {	{ 1, 2, 8, 9, 14 }, 
-									{ 2, 4, 9, 12, 15 }, 
-									{ 4, 6, 10, 13, 21 }, 
-									{ 6, 8, 11, 15, 25 } };
+					{ 2, 4, 9, 12, 15 }, 
+					{ 4, 6, 10, 13, 21 }, 
+					{ 6, 8, 11, 15, 25 } };
 	cout << Find(target, array) << endl;
 	system("pause");
 	return 0;
